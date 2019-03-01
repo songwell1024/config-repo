@@ -1,0 +1,14 @@
+server:
+  port: 9007
+spring:
+  application:
+    name: communitygroup-search
+  data:
+    elasticsearch:
+      cluster-nodes: 121.248.48.100:9300
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka/
+  instance:
+    prefer-ip-address: true
