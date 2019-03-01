@@ -11,6 +11,8 @@ aliyun:
     accessKeySecret: sercert
     template_code: SMS_85735065
     sign_name: 宋的个人测试
+  rabbitmq:
+    host: 121.248.48.100
 eureka:
   client:
     service-url:

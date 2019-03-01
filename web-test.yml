@@ -9,6 +9,8 @@ eureka:
       defaultZone: http://127.0.0.1:6868/eureka/
   instance:
     prefer-ip-address: true
+  rabbitmq:
+    host: 121.248.48.100
 zuul:
   routes:
     communitygroup-gathering: #活动

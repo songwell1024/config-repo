@@ -15,6 +15,8 @@ spring:
     mongodb:
       host: 121.248.48.100
       database: recruitdb
+  rabbitmq:
+    host: 121.248.48.100
 eureka:
   client:
     service-url:

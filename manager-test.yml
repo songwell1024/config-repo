@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: communitygroup-manager #指定服务名
+  rabbitmq:
+    host: 121.248.48.100
 eureka:
   client:
     serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
