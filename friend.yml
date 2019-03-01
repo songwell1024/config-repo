@@ -11,6 +11,8 @@ spring:
   jpa:
     database: mysql
     show-sql: true
+  rabbitmq:
+    host: 121.248.48.100
 jwt:
   config:
     key: jwttest
